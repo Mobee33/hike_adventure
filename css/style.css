@@ -633,6 +633,7 @@ body {
   align-items: center;
   gap: 1px;
   font-size: 14px;
+  color: #f0e016;
 }
 
 .package-card .card-rating iob-icon:last-child {
