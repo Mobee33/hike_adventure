@@ -490,7 +490,7 @@ body {
 
 .popular-card .card-rating {
   background: var(--bright-navy-blue);
-  color: var(--white);
+  color: #f0e016;
   position: absolute;
   top: 0;
   right: 25px;
