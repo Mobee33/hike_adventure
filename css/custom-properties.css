@@ -1,0 +1,105 @@
+/* custom property */
+:root {
+
+  /* colors */
+  --greenish-brown: #2f7367;
+  --dark-green: hsl(169, 43%, 42%);
+  --light-gray: hsl(0, 0%, 50%);
+  --dark-brown: hsl(28, 35%, 26%);
+  --dark-gray: hsl(220, 9%, 10%);
+  --dark-teal: hsl(184, 30%, 33%);
+  --teal: hsl(191, 75%, 39%);
+  --dark-gunmetal-gray: hsl(0, 0%, 12%);
+  --light-gray: hsl(0, 0%, 88%);
+  --off-white: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --dark-gray: hsl(0, 0%, 25%);
+  --dark-jet-black: hsl(0, 0%, 20%);
+
+  /* typography */
+  --ff-cabins: "Cabin", sans-serif;
+  --ff-karla: "Karla", sans-serif;
+
+  --fs-1: calc(20px + 3.5vw);
+  --fs-2: calc(18px + 1.6vw);
+  --fs-3: calc(16px + 0.45vw);
+  --fs-4: 15px;
+  --fs-5: 14px;
+  --fs-6: 13px;
+  --fs-7: 12px;
+  --fs-8: 11px;
+
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-800: 800;
+
+  /* transition */
+  --transition: 0.25s ease-in-out;
+
+  /* spacing */
+  --section-padding: 60px;
+
+  /* border-radius */
+  --radius-15: 15px;
+  --radius-25: 25px;
+}
+
+/* custom property ends*/
+
+/* Reset */
+
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+img,
+span,
+input,
+label,
+button,
+ion-icon {
+  display: block;
+}
+
+input,
+button {
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+}
+
+ion-icon {
+  pointer-events: none;
+}
+
+html {
+  font-family: var(--ff-cabins);
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--white);
+}
+
+/* Reset ends*/
